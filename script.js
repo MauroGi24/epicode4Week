@@ -71,9 +71,9 @@ let num1 = parseInt(prompt("Inserisci il primo numero"))
 let num2 = parseInt(prompt("Inerisci il secondo numero"))
 
 if (num1 === 8 || num2 === 8 || num1 + num2 === 8 || num1 - num2 === 8) {
-  console.log("Uno dei due numeri è uguale a 8 o la loro somma/sottrazione è uguale a 8")
+  alert("Uno dei due numeri è uguale a 8 o la loro somma/sottrazione è uguale a 8")
 } else {
-  console.log("Uno dei due numeri non è uguale a 8 o la loro somma/sottraizone non è uguale a 8")
+  alert("Uno dei due numeri non è uguale a 8 o la loro somma/sottraizone non è uguale a 8")
 }
 
 
