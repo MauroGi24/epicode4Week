@@ -67,6 +67,14 @@ for (let i=0; i<=15; i++)
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
+let num1 = parseInt(prompt("Inserisci il primo numero"))
+let num2 = parseInt(prompt("Inerisci il secondo numero"))
+
+if (num1 === 8 || num2 === 8 || num1 + num2 === 8 || num1 - num2 === 8) {
+  console.log("Uno dei due numeri è uguale a 8 o la loro somma/sottrazione è uguale a 8")
+} else {
+  console.log("Uno dei due numeri non è uguale a 8 o la loro somma/sottraizone non è uguale a 8")
+}
 
 
 
